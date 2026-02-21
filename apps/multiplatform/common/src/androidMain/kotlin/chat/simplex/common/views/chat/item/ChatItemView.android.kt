@@ -28,7 +28,7 @@ actual fun ReactionIcon(text: String, fontSize: TextUnit) {
 @Composable
 actual fun SaveContentItemAction(cItem: ChatItem, saveFileLauncher: FileChooserLauncher, showMenu: MutableState<Boolean>) {
   val writePermissionState = rememberPermissionState(permission = Manifest.permission.WRITE_EXTERNAL_STORAGE)
-  ItemAction(stringResource(MR.strings.save_verb), painterResource(MR.images.ic_download), onClick = {
+  /*ItemAction(stringResource(MR.strings.save_verb), painterResource(MR.images.ic_download), onClick = {
     when (cItem.content.msgContent) {
       is MsgContent.MCImage -> {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R || writePermissionState.status == PermissionStatus.Granted) {
@@ -41,7 +41,7 @@ actual fun SaveContentItemAction(cItem: ChatItem, saveFileLauncher: FileChooserL
       else -> {}
     }
     showMenu.value = false
-  })
+  })*/
 }
 
 actual fun copyItemToClipboard(cItem: ChatItem, clipboard: ClipboardManager) {
