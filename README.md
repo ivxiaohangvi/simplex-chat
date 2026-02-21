@@ -452,3 +452,4 @@ This software is licensed under the GNU Affero General Public License version 3 
 [<img src="https://raw.githubusercontent.com/simplex-chat/.github/refs/heads/master/profile/images/testflight.png" alt="iOS TestFlight" height="41">](https://testflight.apple.com/join/DWuT2LQu)
 &nbsp;
 [<img src="https://raw.githubusercontent.com/simplex-chat/.github/refs/heads/master/profile/images/apk_icon.png" alt="APK" height="41">](https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk)
+test
